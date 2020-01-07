@@ -1,0 +1,24 @@
+header {
+  width: 480px;
+  height: 75px;
+}
+aside {
+  width: 480px;
+  height: 150px;
+}
+main div{
+  width: 480px;
+  height: 125px;
+}
+article div {
+  width: 480px;
+  height: 250px;
+}
+article div div {
+  width: 240px;
+  height: 250px;
+}
+footer {
+  width: 480px;
+  height: 80px;
+}
