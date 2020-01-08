@@ -1,20 +1,12 @@
 header {
   width: 480px;
   height: 75px;
-  /* background-color: slateblue; */
   line-height: 75px;
 }
 aside {
   width: 480px;
   height: 150px;
   line-height: 150px;
-  /* background-color: tomato; */
-}
-#box2 {
-  /* background-color: wheat; */
-}
-#box3 {
-  /* background-color: teal; */
 }
 main div{
   float: left;
@@ -38,30 +30,16 @@ article div div {
   line-height: 250px;
   margin: auto;
 }
-#box4 {
-  /* background-color: blue; */
-}
-#box5 {
-  /* background-color: red; */
-}
-#box6 {
-  /* background-color: green; */
-}
-#box7 {
-  /* background-color: yellow; */
-}
 footer {
   width: 480px;
   height: 80px;
   line-height: 80px;
-  /* background-color: slategray; */
 }
 
 @media screen and (min-width: 481px) {
   header {
     width: 960px;
     height: 100px;
-    /* background-color: tomato; */
     line-height: 100px;
   }
   aside {
@@ -69,13 +47,6 @@ footer {
     width: 200px;
     height: 600px;
     line-height: 600px;
-    /* background-color: wheat; */
-  }
-  #box2 {
-    /* background-color: teal; */
-  }
-  #box3 {
-    /* background-color: blue; */
   }
   main{
     float: left;
@@ -107,53 +78,11 @@ footer {
     height: 250px;
     line-height: 250px;
   }
-  #box4 {
-    /* background-color: red; */
-  }
-  #box5 {
-    /* background-color: green; */
-  }
-  #box6 {
-    /* background-color: yellow; */
-  }
-  #box7 {
-    /* background-color: slategray; */
-  }
   footer {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 760px;
     height: 150px;
     line-height: 150px;
-    /* background-color: slateblue; */
-  }
-}
-@media screen and (min-width: 769px) {
-  header {
-    /* background-color: wheat; */
-  }
-  aside {
-    /* background-color: teal; */
-  }
-  #box2 {
-    /* background-color: blue; */
-  }
-  #box3 {
-    /* background-color: red; */
-  }
-  #box4 {
-    /* background-color: green; */
-  }
-  #box5 {
-    /* background-color: yellow; */
-  }
-  #box6 {
-    /* background-color: slategray; */
-  }
-  #box7 {
-    /* background-color: slateblue; */
-  }
-  footer{
-    /* background-color: tomato; */
   }
 }
