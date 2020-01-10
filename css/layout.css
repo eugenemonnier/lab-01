@@ -1,4 +1,12 @@
+body {
+  display: grid;
+  grid-template-columns: 200px 190px 190px 190px 190px;
+  grid-template-rows: 100px 200px 250px 150px;
+}
+
 header {
+  grid-row: 1;
+  grid-column: 1 5;
   width: 480px;
   height: 75px;
   line-height: 75px;
@@ -7,15 +15,24 @@ aside {
   width: 480px;
   height: 150px;
   line-height: 150px;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 main div{
-  float: left;
   width: 480px;
   height: 125px;
   line-height: 125px;
 }
-article {
-  clear: both;
+#box3 {
+  grid-row: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+#box4 {
+  grid-row: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 article div {
   width: 480px;
@@ -24,7 +41,6 @@ article div {
 }
 article div div {
   display: block;
-  float: left;
   width: 240px;
   height: 250px;
   line-height: 250px;
@@ -36,25 +52,22 @@ footer {
   line-height: 80px;
 }
 
-@media screen and (min-width: 481px) {
-  header {
+/* @media screen and (min-width: 481px) { */
+  /* header {
     width: 960px;
     height: 100px;
     line-height: 100px;
   }
   aside {
-    float: left;
     width: 200px;
     height: 600px;
     line-height: 600px;
   }
   main{
-    float: left;
     width: fit-content;
     height: fit-content;
   }
   main div{
-    float: left;
     width: 380px;
     height: 200px;
     line-height: 200px;
@@ -64,16 +77,13 @@ footer {
     clear: none;
     height: fit-content;
     width: fit-content;
-    float: left;
   }
   article div {
-    float: left;
     width: fit-content;
     height: fit-content;
   }
   article div div {
     display: block;
-    float: left;
     width: 190px;
     height: 250px;
     line-height: 250px;
@@ -84,4 +94,4 @@ footer {
     height: 150px;
     line-height: 150px;
   }
-}
+} */
