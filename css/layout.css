@@ -1,17 +1,18 @@
 header {
   width: 480px;
   height: 75px;
-  background-color: whitesmoke;
+  line-height: 75px;
 }
 aside {
   width: 480px;
   height: 150px;
-  background-color: tomato;
+  line-height: 150px;
 }
 main div{
   float: left;
   width: 480px;
   height: 125px;
+  line-height: 125px;
 }
 article {
   clear: both;
@@ -19,33 +20,68 @@ article {
 article div {
   width: 480px;
   height: 250px;
+  line-height: 250px;
 }
 article div div {
   display: block;
   float: left;
-  width: 238px;
-  height: 248px;
+  width: 240px;
+  height: 250px;
+  line-height: 250px;
+  margin: auto;
 }
 footer {
   width: 480px;
   height: 80px;
-  background-color: slategray;
+  line-height: 80px;
 }
-#article1 {
-  background-color: blue;
-}
-#article2 {
-  background-color: red;
-}
-#article3 {
-  background-color: green;
-}
-#article4 {
-  background-color: yellow;
-}
-#main1 {
-  background-color: wheat;
-}
-#main2 {
-  background-color: teal;
+
+@media screen and (min-width: 481px) {
+  header {
+    width: 960px;
+    height: 100px;
+    line-height: 100px;
+  }
+  aside {
+    float: left;
+    width: 200px;
+    height: 600px;
+    line-height: 600px;
+  }
+  main{
+    float: left;
+    width: fit-content;
+    height: fit-content;
+  }
+  main div{
+    float: left;
+    width: 380px;
+    height: 200px;
+    line-height: 200px;
+  }
+  
+  article {
+    clear: none;
+    height: fit-content;
+    width: fit-content;
+    float: left;
+  }
+  article div {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+  }
+  article div div {
+    display: block;
+    float: left;
+    width: 190px;
+    height: 250px;
+    line-height: 250px;
+  }
+  footer {
+    display: inline-block;
+    width: 760px;
+    height: 150px;
+    line-height: 150px;
+  }
 }

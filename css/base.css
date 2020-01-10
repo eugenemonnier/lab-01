@@ -1,8 +1,14 @@
-header, footer, aside, div {
-  border: 1px black solid;
-}
-html {
+body {
   margin: 0 auto;
   width: 480px;
   height: 767px;
+  text-align: center;
+  font-size: 30px;
+}
+@media screen and (min-width: 481px) {
+ body {
+  margin: 20px auto;
+  width: 960px;
+  height: 768px;
+ }
 }
